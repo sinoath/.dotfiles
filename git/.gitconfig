@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[user]
+	email = p.buciuni@protonmail.com
+	name = Abraxas
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[alias]
+	fall = fetch
