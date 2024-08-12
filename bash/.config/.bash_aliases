@@ -17,6 +17,9 @@ alias tns="tmux new-session -t"
 alias td="tmux detach"
 alias tkill="tmux kill-session -t"
 
+# tmuxifier aliases
+alias dual="tmuxifier s dual"
+
 ### git aliases ###
 alias graph="git log --oneline --all --decorate --graph"
 
