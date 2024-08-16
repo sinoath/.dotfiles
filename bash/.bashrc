@@ -177,3 +177,9 @@ if [ -x "$(command -v fzf)" ]
 then
     source /usr/share/doc/fzf/examples/key-bindings.bash
 fi
+
+# enable Starship prompt and setting config file location
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+if [ -f ~/.config/starship/starship.toml ]; then
+    eval "$(starship init bash)"
+fi
