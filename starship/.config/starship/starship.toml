@@ -1,4 +1,5 @@
 format = """
+$os\
 $username\
 $directory\
 $git_branch\
@@ -18,13 +19,33 @@ style_root = "fg:red"
 format = "[$user]($style) "
 
 [directory]
+style = "bold blue"
 truncation_length = 4
 truncation_symbol = "[...]"
 truncate_to_repo = false
+home_symbol = " "
 
-[git_branch]
+[git_status]
 format = "([$all_status$ahead_behind]($style) )"
 
 [cmd_duration]
 style = "fg:grey"
 format = "[$duration]($style)"
+
+[lua]
+symbol = "󰢱 "
+
+[python]
+symbol = " "
+
+[jobs]
+style = "red"
+symbol = " "
+
+[os]
+disabled = false
+
+[os.symbols]
+Debian = "[](red) "
+
+Windows = "[󰖳](cyan) "

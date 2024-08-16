@@ -177,6 +177,9 @@ if [ -x "$(command -v fzf)" ]
 then
     source /usr/share/doc/fzf/examples/key-bindings.bash
 fi
+export FZF_DEFAULT_COMMAND="find ."
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND" 
+export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND -type d" 
 
 # enable Starship prompt and setting config file location
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
