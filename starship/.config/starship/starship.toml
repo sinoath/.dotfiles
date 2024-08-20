@@ -21,7 +21,7 @@ format = "[$user]($style) "
 [directory]
 style = "bold blue"
 truncation_length = 4
-truncation_symbol = "[...]"
+truncation_symbol = "  "
 truncate_to_repo = false
 home_symbol = " "
 
@@ -40,12 +40,12 @@ symbol = " "
 
 [jobs]
 style = "red"
-symbol = " "
+symbol = "  "
 
 [os]
 disabled = false
 
 [os.symbols]
-Debian = "[](red) "
+Debian = "[ ](red) "
 
-Windows = "[󰖳](cyan) "
+Windows = "[󰖳 ](cyan) "
