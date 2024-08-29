@@ -163,6 +163,8 @@ fi
 export PATH="$PATH:/home/sinoath/.local/bin"
 # tmuxifier bin
 export PATH="$PATH:$HOME/.tmux/plugins/tmuxifier/bin/"
+# Neovim 0.10 path
+PATH="$PATH:/opt/nvim-linux64/bin"
 # Entering path for the firefox.exe file
 export FIREFOX_BIN="/mnt/c/Program Files/Mozilla Firefox/firefox.exe"
 # Set default editor
