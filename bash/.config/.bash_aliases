@@ -7,7 +7,11 @@ alias cd..="cd .."
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
+
+# neovim/vim aliases
 alias nv="nvim"
+alias vim="nvim"
+alias v="vim"
 
 ### tmux aliases ###
 alias ta="tmux attach"
