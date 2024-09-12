@@ -184,7 +184,9 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND -type d" 
 
 # enable Starship prompt and setting config file location
-export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
-if [ -f ~/.config/starship/starship.toml ]; then
-    eval "$(starship init bash)"
-fi
+# export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+# if [ -f ~/.config/starship/starship.toml ]; then
+#     eval "$(starship init bash)"
+# fi
+eval "$(starship init bash)"
+
