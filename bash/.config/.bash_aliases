@@ -21,6 +21,9 @@ alias tns="tmux new-session -t"
 alias td="tmux detach"
 alias tkill="tmux kill-session -t"
 
+# fdfind alias
+alias fd="fdfind"
+
 # tmuxifier aliases
 alias dual="tmuxifier s dual"
 
