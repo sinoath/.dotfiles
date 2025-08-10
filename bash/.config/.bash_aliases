@@ -9,8 +9,9 @@ alias egrep="egrep --color=auto"
 
 # neovim/vim aliases
 alias nv="nvim"
-alias vim="nvim"
-alias v="vim"
+# alias vim="nvim"
+alias vim="/opt/nvim-linux-x86_64/bin/nvim"
+alias vi="/usr/bin/vim"
 
 ### tmux aliases ###
 alias ta="tmux attach"
