@@ -1,6 +1,5 @@
 ### General bash aliases ###
 alias ll="ls -l"
-alias ll="ls -l"
 alias la="ls -A"
 alias lal="ls -lA"
 alias cd..="cd .."
