@@ -34,4 +34,4 @@ alias graph="git log --oneline --all --decorate --graph"
 alias agent-ssh-start='ssh-agent -s > ~/.ssh/log.txt;eval `ssh-agent -s`'
 alias add-ssh-abraxas="ssh-add ~/.ssh/abraxas_rsa"
 alias abraxas="agent-ssh-start;add-ssh-abraxas"
-
+alias pi-ssh="ssh -i /home/sinoath/.ssh/abraxas_rsa sinoath@192.168.1.235"
